@@ -4,11 +4,11 @@
 def primes(number_of_primes):
     if number_of_primes <1:
         raise ValueError
-        
+
     list = []
     num = 2
 
-    while len(list) <= number_of_primes:
+    while len(list) < number_of_primes:
 
       prime = True
       #prime checker
